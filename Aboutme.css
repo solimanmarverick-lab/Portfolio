@@ -1,0 +1,313 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(img/Black\ Aesthetic\ Wallpapers\ _\ Download\ Free\ Black\ Wallpapers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;   
+    align-items: flex-end;    
+    width: 50%;               
+    margin-left: auto;       
+}
+
+.container img{
+    display: block;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.content{
+    width: 100%;
+    padding: 60px 6vw;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.content p{
+    font-family: sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: #2b2b2b;
+    margin-bottom: 1.6rem;
+}
+
+.content p strong{
+    color: #000;
+}
+.Experience{
+    width: 100%;
+    padding: 60px 6vw;
+    background: #fff;
+    box-sizing: border-box;
+}
+.Experience p{
+    font-family: sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: #2b2b2b;
+    margin-bottom: 3rem;
+}
+
+.inline-img{
+    display: block;
+    width: 100%;
+    max-height: 500px;
+    margin: 2.4rem 0;
+    object-position: bottom;
+   
+}
+.ican{
+    width: 100%;
+    padding: 60px 6vw;
+    background: #fff;
+    box-sizing: border-box;
+}
+.ican p{
+    font-family: sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: #2b2b2b;
+    margin-bottom: 5rem;
+}
+.technical-skills{
+     width: 100%;
+    padding:60px 6vw;
+     background: #fff;
+    box-sizing: border-box;
+}
+.technical-skills p{
+      font-family: sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: #2b2b2b;
+    margin-bottom: 1.6rem;
+}
+.I-can i {
+    margin-right: 10px;
+    color: #555;
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 0;
+    background-color: white;
+    width: 100%;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.skill-item {
+    width: 33.33%;
+    font-family: sans-serif;
+    font-size: 1.05rem;
+    color: #2b2b2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    gap: 10px;
+}
+
+.skill-item i {
+    color: #555;
+    width: 20px;               
+    flex-shrink: 0;
+}
+.skill-bar {
+    margin-bottom: 20px;
+}
+
+.bar-track {
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 6px;
+    background-color: #000;
+}
+
+.bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    background-color:rgb(227, 148, 12) ;
+}
+a {
+  text-decoration: none;
+}
+
+ #home {
+  position: fixed ;
+  font-size: 2.5rem;
+  color: #ffffff;
+  transition: color 0.3s;
+  top: 30px;
+  left: 20px;
+ }
+.vertical-line {
+    position: absolute;
+    top: 40%;
+    bottom: 5%;
+    left: 678px;
+    width: 3px;
+    background-color: rgb(230, 230, 229);
+    z-index: 999;
+    height: 3140px;
+}
+
+.side-label {
+    position: absolute;
+    left: 45%;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    transform: translate(-100%, -50%);   
+    flex-direction: row-reverse; 
+}
+
+.side-label .label-line {
+    display: block;
+    width: 5px;
+    height: 4660px;
+    background-color: #ffffff;
+    margin-right: 15px;
+    position: absolute;
+    top: 300px;
+}
+
+.side-label .label-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-right: 0;
+}
+
+.side-label .label-text {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+    white-space: nowrap;
+}
+.Name, .last{
+    position: absolute;
+    font-size: 3.5rem;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+@font-face {
+  font-family: 'Oi';
+  src: url('font/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppin';
+  src: url('font/Poppins-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'light';
+  src: url('font/Poppins-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Name{
+     top: 4%;
+     left: 12%;
+}
+.last{
+    top: 25%;
+    left: 19%;
+}
+.About-me, .Experien,.Thing,.Skills{
+    position: absolute;
+    font-size: 1.7rem;
+    color: white;
+    font-family: 'Poppin', sans-serif;
+}
+.About-me{
+    top: 830px;
+    left: 20%;
+}
+.Experien{
+    top: 1905px;
+    left: 16%;
+}
+.Thing{
+    top: 2580px;
+    left: 10%;
+}
+.Skills{
+    top: 2970px;
+    left: 15%;
+}
+.position, .pos{
+    position: absolute;
+    font-family: 'light', sans-serif;
+    font-size: 0.7rem;
+    color: white;
+}
+.position{
+    top: 400px;
+    left: 260px;
+}
+.pos{
+    top: 450px;
+    left:300px ;
+}
+
+/* ===== Scroll reveal animations ===== */
+.reveal-left,
+.reveal-right,
+.reveal-up {
+    opacity: 0;
+    transition: opacity 0.9s ease, transform 0.9s ease;
+    will-change: transform, opacity;
+}
+
+.reveal-left {
+    transform: translateX(-100px);
+}
+
+.reveal-right {
+    transform: translateX(100px);
+}
+
+.reveal-up {
+    transform: translateY(60px);
+}
+
+.reveal-left.visible,
+.reveal-right.visible,
+.reveal-up.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* stagger helper for lists of items (skill-item, skill-bar, etc.) */
+.stagger-1 { transition-delay: 0.05s; }
+.stagger-2 { transition-delay: 0.15s; }
+.stagger-3 { transition-delay: 0.25s; }
+.stagger-4 { transition-delay: 0.35s; }
+.stagger-5 { transition-delay: 0.45s; }
