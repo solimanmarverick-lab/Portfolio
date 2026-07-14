@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: 'Oi';
   src: url('font/BebasNeue-Regular.ttf') format('truetype');
@@ -24,7 +25,7 @@
   color: #014baa;
   font-family: 'Oi', cursive;
   top: 60px;
-  left: 350px;
+  left: 22%;
 }
 .my{
   position: absolute;
@@ -32,7 +33,7 @@
   color: #014baa;
   font-family: 'Oi', cursive;
   top: 260px;
-  left:32% ;
+  left:31% ;
 }
 .Port{
   position: absolute;
@@ -47,15 +48,16 @@
   font-size: 10rem;
   color: #014baa;
   top: 420px;
-  right: 32%;
+  left: 51%;
   font-family: 'Oi', cursive;
 }
 .profile{
-    position: absolute;
-    left: 70%;
-     width: 450px;
-    top: -85px;
+    position:absolute;
 
+    right:0;
+
+    width:34%;
+    max-width:460px;
 }
 .profile img{
     width: 100%;
@@ -73,23 +75,25 @@
   height: 150px;
   object-fit: cover;
   top: 430px;
-  left: 35%;
+  left: 36%;
+  transform: translateX(-50%);
 }
 .container{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 800px;
-    margin-top: 40px;
+    position:relative;
 
+    width:min(92%,1400px);
+    height:850px;
+
+    margin:40px auto 0;
 }
 .logo{
   position: absolute;
   color:#014baa;
   font-family: 'cap', cursive;
   font-size: 9rem;
-  left: 40%;
-  top: 100%;
+  left:40%;
+transform:translateX(-50%);
+  top: 800px;
   
   
 }
@@ -97,8 +101,10 @@ body{
     overflow-y: auto;
 }
 .project{
-    margin-top: 50px;
+    max-width:2000px;
+    margin:0 auto;
 }
+
 
 .wrapper {
   width: 100%;
@@ -130,7 +136,7 @@ body{
   display: inline-block;
   margin-top: 2rem;
   filter: grayscale(100%);
-  
+  max-width: 300;
 }
 .item a {
   text-decoration: none;
@@ -244,6 +250,21 @@ h3{
   font-family: 'Oi', sans-serif;
   font-size: 3rem;
   text-align: center;
-  padding: 10px;
+  line-height: 1.4;
   color: #014baa;
+}
+@media (min-width: 2000px){
+
+    .container{
+        max-width:1600px;
+    }
+
+    .profile{
+        max-width:520px;
+    }
+
+}
+.head{
+  width: 100%;
+  height: 200px;
 }
