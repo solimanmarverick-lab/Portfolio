@@ -162,7 +162,7 @@ a {
     width: 3px;
     background-color: rgb(230, 230, 229);
     z-index: 999;
-    height: 3140px;
+    height: 3350px;
 }
 
 .side-label {
@@ -240,7 +240,7 @@ a {
     top: 25%;
     left: 19%;
 }
-.About-me, .Experien,.Thing,.Skills{
+.About-me, .Experien,.Thing,.Skills, .Contact{
     position: absolute;
     font-size: 1.7rem;
     color: white;
@@ -262,6 +262,12 @@ a {
     top: 2970px;
     left: 15%;
 }
+.Contact{
+    top: 3540px;
+    left: 16%;
+
+}
+   
 .position, .pos{
     position: absolute;
     font-family: 'light', sans-serif;
@@ -277,7 +283,7 @@ a {
     left:300px ;
 }
 
-/* ===== Scroll reveal animations ===== */
+
 .reveal-left,
 .reveal-right,
 .reveal-up {
@@ -311,3 +317,18 @@ a {
 .stagger-3 { transition-delay: 0.25s; }
 .stagger-4 { transition-delay: 0.35s; }
 .stagger-5 { transition-delay: 0.45s; }
+
+.contact-section{
+width: 100%;
+padding: 60px 6vw;
+background: #fff;
+box-sizing: border-box;
+}
+.contact-section p{
+    font-family: sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: #2b2b2b;
+    margin-bottom: 1.6rem;
+
+}
